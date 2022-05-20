@@ -1,0 +1,72 @@
+@charset "EUC-KR";
+
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;800&family=Crimson+Pro:wght@200&family=Oooh+Baby&family=Petit+Formal+Script&family=Quicksand:wght@300;500&display=swap');
+
+
+	
+	.info{
+		width:320px;
+		margin:6px 15px;
+		padding:15px 15px 15px 15px;
+		background:white;
+	}
+	
+	.info > h3{
+		display:block;
+		color:firebrick;
+		background:white;
+		font-family:'Biorhyme', serif;
+		font-weight:400;
+		text-align:center;
+	}
+	
+	.info > ul{
+		list-style:disc;
+		padding:5px 10px;
+		background:white;
+	}
+	
+	.info > ul > li{
+		background:white;
+		font-family:'Quicksand', sans-serif;
+		font-size:0.9em;
+		font-weight:500;
+		margin: 10px 0px;
+	}
+	
+	.info > ul > li > #dinetype{
+		color:#04301C;
+		background:white;
+		font-weight:800;
+		font-size:1em;
+	}
+	
+	#award{
+		border-collapse:collapse;
+		width:300px;
+		height:130px;
+		background:white;
+		margin: 10px 10px;
+	}
+	
+	#award > thead > tr > th{
+		background:white;
+		display:none;
+	}
+	
+	#award > tbody > tr > td{
+		background:white;
+	}
+	
+	#award > tbody > tr > td:nth-child(1){
+		font-family:'Quicksand', sans-serif;
+		font-size:0.9em;
+		font-weight:600;
+		text-align:right;
+	}
+	
+	#award > tbody > tr > td:nth-child(2){
+	
+		font-family:'Crimson Pro', serif;
+		font-style:italic;
+	}

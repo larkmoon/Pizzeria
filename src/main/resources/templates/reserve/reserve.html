@@ -1,0 +1,66 @@
+<meta charset="UTF-8">
+<head>
+<title>RESERVE-Pacifico Pizzeria</title>
+<link rel="stylesheet" href="css/reserve.css">
+
+<script>
+
+	function rsvalidation(){
+		var formObj = document.getElementById('form_reserve');
+		if(!formObj.checkValidity()){
+			alert('error!');
+			return;
+		};
+	};
+
+	$(function(){
+		
+		const strpsize = document.querySelector('input[name=psize]');
+		const psize = strpsize.valueAsNumber;
+		
+		
+		$('#bt_reserve').click(function(){
+			
+			/*
+			for (var i = 0; i < form.elements.length; i++) {
+				if(form.elements[i].value == '' && form.elements[i].hasAttribute('required')){
+					alert('There are some required fields!');
+					return;
+				}
+			};*/
+			
+			/*
+			for (const el of document.getElementById('form_reserve').querySelectorAll("[required]")) {
+				  if (!el.reportValidity()) {
+				    return;
+				  }
+				}
+			*/
+			
+			/*return*/ rsvalidation();
+			
+		$('#form_reserve').attr({
+			'action':'reserveimpl',
+			'method':'get'
+		});
+		
+		$('#form_reserve').submit();
+		});
+	});
+
+</script>
+</head>
+<h3>Find a table</h3>
+<form id="form_reserve">
+	<fieldset>
+		<legend>Complete your reservation</legend>
+		Date<input type="date" name="date" class="rinfo" required><br>
+		Time<input type="time" name="time" class="rinfo" required><br>
+		Party Size<input type="number" name="psize" class="rinfo" required><br>
+		Name<input type="text" name="name" class="rinfo" required><br>
+		Special Requests<br>
+		<textarea name="request" class="rinfo"></textarea>
+	</fieldset>
+<button id="bt_reserve" type="submit">Complete Reservation</button>
+</form>
+

@@ -1,0 +1,54 @@
+@charset "EUC-KR";
+
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;800&family=Crimson+Pro:wght@200&family=Oooh+Baby&family=Petit+Formal+Script&family=Quicksand:wght@300;500&display=swap');
+
+#center_aside > h3{
+	background:ivory;
+	font-family:'Biorhyme', serif;
+	font-weight:400;
+	color:firebrick;
+	margin: 20px 0 0 0;
+	text-align:Center;
+}
+
+#center_aside > form, fieldset{
+	margin:5px;
+	background:ivory;
+	font-family:'Quicksand', sans-serif;
+	font-size:0.9em;
+	border:none;
+}
+
+legend{
+	display:block;
+	background:ivory;
+	margin:10px auto;
+}
+
+.rinfo{
+	font-family:'Quicksand', sans-serif;
+	margin:10px;
+	border:0.5px solid gray;
+}
+
+form.was-validated input:invalid{
+	border-color: red;
+}
+
+input[class="rinfo"]{
+		background:white;
+	}
+input:focus{
+	background:khaki;
+}
+button{
+	background:BurlyWood;
+	color:black;
+	font-family:'Crimson Pro', serif;
+	font-size:1.1em;
+	margin: 0 95px;
+}
+textarea{
+	background:white;
+	width:290px;
+}

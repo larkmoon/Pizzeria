@@ -1,0 +1,11 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;800&family=Crimson+Pro:wght@200&family=Oooh+Baby&family=Petit+Formal+Script&family=Quicksand:wght@300;500&display=swap');
+
+.ad{
+	margin: 15px 15px;
+	transition: all 0.2s linear;
+}
+
+.ad:hover{
+	transform:scale(3);
+}
