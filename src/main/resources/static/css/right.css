@@ -3,9 +3,9 @@
 
 .ad{
 	margin: 15px 15px;
-	transition: all 0.2s linear;
+	
 }
 
 .ad:hover{
-	transform:scale(3);
+	
 }

@@ -1,0 +1,31 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;800&family=Crimson+Pro:wght@200&family=Oooh+Baby&family=Petit+Formal+Script&family=Quicksand:wght@300;500&display=swap');
+
+
+.big_bt{
+	margin:7px 7px;
+	width:80px;
+	height:30px;
+	background:Olivedrab;
+	border:3px solid #FFFFFF;
+	box-shadow:3px 3px 3px #C0C0C0;
+	
+}
+.big_bt > a{
+	display:block;
+	background:Olivedrab;
+	color:white;
+	line-height:30px;
+	text-align:center;
+	font-weight:400;
+	font-family:'BioRhyme', serif;
+	font-size:0.8em;
+}
+.big_bt > a:hover{
+	background:sandybrown;
+	color:darkgreen;
+}
+
+.big_bt:hover{
+	background:sandybrown;
+}

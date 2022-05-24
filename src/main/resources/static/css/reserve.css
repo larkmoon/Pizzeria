@@ -19,36 +19,79 @@
 	border:none;
 }
 
-legend{
+#form_reserve legend{
 	display:block;
 	background:ivory;
 	margin:10px auto;
+	font-family:'Biorhyme', serif;
+	font-weight: bold;
 }
 
-.rinfo{
+
+#form_reserve p{
+	text-align:center;
+	background:ivory;
+}
+
+#form_reserve .rinfo{
 	font-family:'Quicksand', sans-serif;
-	margin:10px;
+	margin:10px 0;
 	border:0.5px solid gray;
+	display:block;
 }
 
-form.was-validated input:invalid{
-	border-color: red;
+#form_reserve input[class="rinfo"], select{
+	background:white;
 }
 
-input[class="rinfo"]{
-		background:white;
-	}
-input:focus{
-	background:khaki;
+#form_reserve #namepick{
+	margin:10px 0 5px 0;
 }
-button{
+	
+#form_reserve button{
 	background:BurlyWood;
 	color:black;
 	font-family:'Crimson Pro', serif;
 	font-size:1.1em;
-	margin: 0 95px;
+	margin:5px auto;
+	display:block;
 }
-textarea{
+
+#form_reserve textarea{
 	background:white;
 	width:290px;
+}
+
+#form_reserve .rinfo:focus{
+	outline:none;
+	border:2px solid #3D876C;
+}
+
+#nameguide{
+	display:block;
+	background:ivory;
+	color:#3D876C;
+	font-weight:bold;
+	margin:10px 10px;
+}
+
+.notice{
+	background:ivory;
+	margin:50px 20px 20px 20px;
+}
+.terms{
+	margin:5px auto;
+}
+
+.terms summary{
+	background:ivory;
+	font-family:'Biorhyme', serif;
+	font-weight:400;
+	color:firebrick;
+}
+.terms p{
+	background:ivory;
+	padding:10px 10px;
+	font-family:'Quicksand', sans-serif;
+	font-size:0.8em;
 }

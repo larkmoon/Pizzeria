@@ -1,0 +1,29 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;800&family=Crimson+Pro:wght@200&family=Oooh+Baby&family=Petit+Formal+Script&family=Quicksand:wght@300;500&display=swap');
+
+.homeleft{
+	background:cornsilk;
+	padding:0 5px;
+	margin:5px 0;
+}
+
+.homeleft div, a{
+	background:cornsilk;
+}
+
+.homeleft div{
+	margin:10px 0;
+}
+
+.homebt{
+	background:cornsilk;
+	border:none;
+	color:#196F3D;
+	text-align:left;
+	font-family:'BioRhyme', serif;
+	font-weight:bold;
+}
+
+.homebt:hover{
+	background:wheat;
+}

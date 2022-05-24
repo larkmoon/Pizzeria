@@ -1,9 +1,19 @@
 <meta charset="UTF-8">
 <title>Pacifico Pizzeria</title>
-<style>
-	h1{
-		background: ivory;
-	}
-</style>
+<link rel="stylesheet" href="css/reservecompl.css">
 
+<div class="rscheck">
 <h1>Reservation Completed</h1>
+	<table id="trscheck">
+		<thead>
+			<tr><th>name</th><th>value</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>Date</td><td><span th:text="${rdate}"></span></td></tr>
+			<tr><td>Time</td><td><span th:text="${rtime}"></span></td></tr>
+			<tr><td>Party Size</td><td><span th:text="${rpsize}"></span></td></tr>
+			<tr><td>Name</td><td><span th:text="${rname}"></span></td></tr>
+			<tr><td>Requests</td><td><span th:text="${rrequest}"></span></td></tr>
+		</tbody>
+	</table>
+</div>

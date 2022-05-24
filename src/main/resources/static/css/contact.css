@@ -1,0 +1,59 @@
+@charset "EUC-KR";
+
+.contact{
+	background:ivory;
+}
+
+.contact h1{
+	background:ivory;
+	text-align:center;
+	color:firebrick;
+	font-family:'Biorhyme', serif;
+	font-weight:400;
+	text-align:center;
+	display:block;
+	margin:15px auto;
+}
+
+#contact{
+	background:ivory;
+	margin:25px auto;
+}
+
+#tcontact{
+	border-collapse:collapse;
+	font-family:'Quicksand', sans-serif;
+	font-size:0.9em;
+}
+
+#tcontact tr{
+	background:ivory;
+	vertical-align:top;
+}
+
+#tcontact thead{
+	display:none;
+}
+
+#tcontact tbody tr td{
+	background:ivory;
+	border:none;
+	padding:5px 20px;
+}
+
+#tcontact tbody tr td:nth-child(1){
+	font-weight:600;
+	color:firebrick;
+}
+
+.map{
+	width:320px;
+	margin:17px auto;
+	background:ivory;
+}
+#map{
+	width:320px;
+	height:280px;
+	border:0;
+
+}

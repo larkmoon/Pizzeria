@@ -1,0 +1,48 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;800&family=Crimson+Pro:wght@200&family=Oooh+Baby&family=Petit+Formal+Script&family=Petit+Formal+Script&family=Quicksand:wght@300;500&display=swap');
+
+.rscheck h1{
+	background:ivory;
+	text-align:center;
+	font-family:'Petit Formal Script', cursive;
+	color:firebrick;
+	display:block;
+	margin:20px auto;
+}
+
+.rscheck{
+	background:ivory;
+}
+
+
+#trscheck{
+	background:ivory;
+	border-collapse:collapse;
+	font-family:'Crimson Pro', serif;
+	width:300px;
+	vertical-align:top;
+}
+
+#trscheck thead{
+	display:none;
+}
+
+
+
+#trscheck tbody tr td{
+	background:ivory;
+}
+
+#trscheck tbody tr span{
+	background:ivory;
+	display:block;
+	width:200px;
+	white-space:pre-wrap;
+	word-wrap:break-word;
+}
+
+#trscheck tbody tr td:nth-child(1){
+	font-family:'Crimson Pro', serif;
+	font-weight:bold;
+	vertical-align:top;
+}
